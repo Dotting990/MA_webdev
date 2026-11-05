@@ -3,19 +3,46 @@
     <head>
         <title>HTML Notes</title>
         <meta charset = "UTF-8">
+        <style>
+            /* Cascading Style Sheets 
+            1. Selector => says what to change
+            2. Declaration
+                a. Property => What about the element to change
+                b. Value => How to change it
+            */
+            body{
+                color:white;
+                background-color:black;
+                border: solid 5px #6c53ff;
+            }
+            h1{
+                text-align: center;
+            }
+            #even{
+                color: salmon;
+                text-decoration: underline;
+                border-radius: 5px;
+                font-size: 2rem;
+            }
+            .lists{
+                width: 50%;
+                background-color: rgba(166, 102, 250, 0.397);
+            }
+        </style>
     </head>
     <body>
         <h1>HTML Advanced Notes</h1>
-        <h3>Lists: </h3>
+        <div class = lists:>
+        <h3>Lists:</h3>
         <ol type = I>
-            <li>Mimi</li>
-            <li>Jr.</li>
-            <li>Mom</li>
+            <li id = "even">Mimi</li>
+            <li id = "even">Jr.</li>
+            <li id = "even">Mom</li></div>
         </ol>
         <ul>
             <li><a href="https://www.google.com/goto?url=CAESZgHrOzAVidnEyffxu4C2xQGv2iXnYGi6k2L_UMncPceFjKw2pptmEPuPRcZqH3zx1COtoyF_uBqOar_BXebplUsTML0jGYnKqEYqT3eaUBGaBwn44gKMlBZ27O4z8hUDNa88cp4YGA" target="_blank">RB</a></li>
             <li>MC</li>
-            <li>FN</li>
+            <li id = "even">FN</li>
         </ul>
         <dl>
             <dt>Fall</dt>
