@@ -5,38 +5,54 @@
         <meta charset="UTF-8">
         <style>
             body{
-                color:red;
-                background-color:purple;
-                border: solid 10px yellow;
-                font-size: 5rem;
+                background-color: deeppink;
             }
-            h1{
+            #box{
+                height: 75px;
+                width: 75px;
+                background-color: blue;
+                color: white;
                 text-align: center;
-                color:green;
+                border: solid 5px orange;
             }
-            #U{
-                color:green
-            }
-            #A{
-                color:blue
-            }
-            #K{
-                color:yellow
-            }
+            #Color{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
             
+                gap: 1px;
+            }
+            #not{
+                height: 75px;
+                width: 75px;
+                background-color: green;
+                color: greenyellow;
+                text-align: center;
+                border: solid 5px yellow;
+            }
+            #bot{
+                height: 75px;
+                width: 75px;
+                background-color: red;
+                color: blue;
+                text-align: center;
+                border: solid 5px yellow;
+            }
+
+
+
         </style>
     </head>
-    <h1>yegdfuhasefchn</h1>
-<body>fefsd;fsdkfjsd;ff;fs;ufsf</body>
-<dl>
-    <dt id = "U">Spring</dt>
-    <dd>St. Patricks</dd>
-    <dd>Easter</dd>
-    <dt id = "A">Fall</dt>
-    <dd>Halloween</dd>
-    <dd>Thanksgiving</dd>
-    <dt id = "K">Winter</dt>
-    <dd>Christmas</dd>
-    <dd>New Years</dd>
-</dl>
+    <h1></h1>
+<body>
+        <div id="Color">
+            <div id="box">
+                <p>Box 1</p>
+            </div>
+            <div id="not">
+                <p>Box 2</p>
+            </div> 
+            <div id="bot">
+                <p>Box 3</p>
+            </div>
+</body>
 </html>
