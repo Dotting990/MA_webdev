@@ -72,7 +72,10 @@
         <div id="secretSection">
         <h3><b>Zion National Park</b></h3>
         <p>Zion national park is a very beautiful place full of amazing and beautiful unique rocks and hikes. Is a perfect place for vacation</p>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzKysx8hRft0HkA2awMekX1jLGsORnIbeu9WRfPXqy8w&s=10">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzKysx8hRft0HkA2awMekX1jLGsORnIbeu9WRfPXqy8w&s=10" 
+        alt="zion"
+        onmouseover="this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOqhdvva8F-xo1MD8UraGa9dNi-gNUt5iO7m-zcdMp0w&s=10'"
+        onmouseout="this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzKysx8hRft0HkA2awMekX1jLGsORnIbeu9WRfPXqy8w&s=10'">
         </div>
 
         <script>
@@ -90,30 +93,5 @@
          }
         }
         </script>
-        <script>
-            let images =[""]
-                let currentImage=0
-                function rotation(){
-                    currentImage += 1
-                    if (currentImage>3)
-                        currentImage = 0
-                    document.getElementById("secretSection").src = images[currentImage]
-    
-                    
-                }
-                 function showHide() {
-            let extra = document.getElementById("secretSection")
-            let button = document.getElementById("toggleBtn")
-    
-            if (extra.style.display == "none") {
-                extra.style.display = "block"
-                button.innerHTML = "Less Info"
-            } else {
-                extra.style.display = "none"
-                button.innerHTML = "More Info"
-            }
-        }
-        </script>
-
     </body>
 </html>
